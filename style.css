@@ -1,13 +1,13 @@
 
 body {
-    background-color: #f9bfc9;
+    background-color: pink;
     color:aliceblue;
     font-family:"Gill Sans",sans-serif;
 }
 
 .first-segment {
-    background-color: rgba(186, 91, 121, 0.6);
-    margin:30px;
+    background-color: rgba(186, 91, 121);
+    margin:10px 30px;
     border-radius:25px;
     box-shadow: 0 0 2em rgb(208, 148, 208);
 }
@@ -16,8 +16,12 @@ body {
     display:flex;
     justify-content: space-between;
     align-content:center;
-    padding:10px 70px;
-    margin-bottom:50px;
+    padding:0px 70px;
+    margin:0px 0px 20px 0px;
+    background:linear-gradient(180deg,
+    rgba(255,192,203,1) 0%, rgba(255,192,203,1) 30%,
+    rgba(44, 3, 68,1) 30%,rgba(44, 3, 68, 1) 70%,
+    rgba(255,192,203,1) 70%, rgba(255,192,203,1) 100%);
 }
 
 
@@ -31,16 +35,16 @@ body {
 
 
 
-img {
-    width:15%;
+.img2 {
+    width:25%;
     height:auto;
     border:4px solid rgb(208, 148, 208);
     border-radius:5px;
+    background-color: aquamarine;
 }
 
 .second-part{
     display:flex;
-    text-align: center;
     justify-content:center;
     align-content:center;
     padding:30px;
@@ -50,6 +54,7 @@ img {
 
 .text{
     display:flex;
+    text-align:center;
     flex-direction:column;
     max-width:500px;
     justify-content:center;
@@ -59,4 +64,39 @@ img {
 p {
     display:flex;
     flex-wrap:wrap;
+}
+
+a {
+    color:rgba(186, 91, 121);
+}
+
+.img1 {
+    width:100px;
+    height:auto;
+}
+
+
+.some-pics-of-luna {
+    display: flex;
+    flex-wrap:wrap;
+    gap:50px;
+    justify-content:center;
+    background-color: rgba(44, 3, 68,1);
+    margin-top: 100px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.second {
+    width: 250px;
+    height: 275px;
+    border:5px solid rgb(208, 148, 208);
+    border-radius: 20px;
+}
+
+#pee {
+    width: 250px;
+    height: 275px;
+    border:15px solid rgb(208, 148, 208);
+    border-radius: 20px;
 }
