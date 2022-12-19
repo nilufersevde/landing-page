@@ -38,7 +38,7 @@ body {
 .img2 {
     width:25%;
     height:auto;
-    border:4px solid rgb(208, 148, 208);
+    border:10px solid rgb(208, 148, 208);
     border-radius:5px;
     background-color: aquamarine;
 }
@@ -78,25 +78,49 @@ a {
 
 .some-pics-of-luna {
     display: flex;
-    flex-wrap:wrap;
     gap:50px;
     justify-content:center;
     background-color: rgba(44, 3, 68,1);
     margin-top: 100px;
-    padding:20px;
+    padding:30px;
     box-sizing: border-box;
 }
 
 .second {
     width: 250px;
     height: 275px;
-    border:5px solid rgb(208, 148, 208);
-    border-radius: 20px;
+    border-top: 15px solid rgb(208, 148, 208);
+    border-bottom: 5px solid rgb(208, 148, 208);
+    border-right: 20px solid rgb(208, 148, 208);
+    border-left: 20px solid rgb(208, 148, 208);
+    border-radius: 25px;
+    box-sizing: border-box;
 }
 
 #pee {
     width: 250px;
     height: 275px;
-    border:15px solid rgb(208, 148, 208);
-    border-radius: 20px;
+    border-top: 15px solid rgb(208, 148, 208);
+    border-bottom: 5px solid rgb(208, 148, 208);
+    border-right: 20px solid rgb(208, 148, 208);
+    border-left: 20px solid rgb(208, 148, 208);
+    border-radius: 25px;
+    box-sizing: border-box;
 }
+
+.polaroid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 250px;
+    align-items: center;
+    background-color: rgb(208, 148, 208);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+  }
+
+.p-container {
+    text-align: center;
+    padding: 5px 10px;
+  }
