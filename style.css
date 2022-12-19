@@ -123,4 +123,37 @@ a {
 .p-container {
     text-align: center;
     padding: 5px 10px;
+    font-size: 20px;
   }
+
+
+.some-testimonial {
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    font-family:"Gill Sans",sans-serif;
+    font-size: 35px;
+    color:rgba(44, 3, 68,1);
+    font-style: italic;
+}
+
+.sign-up {
+    display:flex;
+    margin:0px 60px;
+    background-color: rgba(186, 91, 121);
+    border-radius: 15px;
+    justify-content: center;
+    padding: 30px;
+    gap:30px;
+}
+
+#sign-up {
+    font-size: 20px;
+}
+
+button {
+    font-size: 25px;
+    color: antiquewhite;
+    background-color:rgba(44, 3, 68,1) ;
+    border-radius: 20px;
+}
